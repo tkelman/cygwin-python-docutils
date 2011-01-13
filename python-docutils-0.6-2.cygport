@@ -1,6 +1,0 @@
-inherit distutils
-
-
-
-HOMEPAGE="http://docutils.sourceforge.net/"
-SRC_URI="mirror://sourceforge/docutils/${P#python-}.tar.gz"

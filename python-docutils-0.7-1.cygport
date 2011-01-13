@@ -1,0 +1,10 @@
+inherit distutils-multi
+
+DESCRIPTION="Python reStructuredText documentation utilities"
+HOMEPAGE="http://docutils.sourceforge.net/"
+SRC_URI="mirror://sourceforge/docutils/${P#python-}.tar.gz"
+
+PKG_NAMES="python-docutils python3-docutils"
+PKG_HINTS="setup py3k"
+python_docutils_CONTENTS="usr/bin/ "${PYTHON_SITELIB#/}" usr/share/"
+python3_docutils_CONTENTS=${PYTHON3_SITELIB#/}
