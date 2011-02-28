@@ -1,5 +1,5 @@
 category: Python
-requires: python
+requires: python python-roman
 sdesc: "Python text processing module"
 ldesc: "Docutils is an open-source text processing system for processing 
 plaintext documentation into useful formats, such as HTML or LaTeX. It 
