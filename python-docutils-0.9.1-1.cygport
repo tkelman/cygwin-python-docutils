@@ -1,0 +1,10 @@
+inherit python-distutils
+
+CATEGORY="Python"
+SUMMARY="Python reStructuredText processing module"
+DESCRIPTION="Docutils is an open-source text processing system for
+processing plaintext documentation into useful formats, such as HTML or
+LaTeX. It includes reStructuredText, the easy to read, easy to use,
+what-you-see-is-what-you-get plaintext markup language."
+HOMEPAGE="http://docutils.sourceforge.net/"
+SRC_URI="mirror://sourceforge/docutils/${P#python-}.tar.gz"

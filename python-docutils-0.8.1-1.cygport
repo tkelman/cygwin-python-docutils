@@ -1,5 +1,0 @@
-inherit python-distutils
-
-DESCRIPTION="Python reStructuredText documentation utilities"
-HOMEPAGE="http://docutils.sourceforge.net/"
-SRC_URI="mirror://sourceforge/docutils/${P#python-}.tar.gz"
